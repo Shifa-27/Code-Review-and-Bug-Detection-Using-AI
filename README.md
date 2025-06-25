@@ -55,4 +55,4 @@ npm start
 **Setup the backend**
 cd backend
 pip install -r requirements.txt
-uvicorn main:app --reload
+python main.py
