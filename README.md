@@ -17,18 +17,6 @@ This full-stack web application provides automated code review and bug detection
 - **Database:** SQLite3
 - **AI Integration:** Machine Learning models using Transformers, PyTorch, scikit-learn, and OpenAI
 
-## 🗂️ Project Structure
-
-Project/
-├── frontend/ # React.js frontend
-│ └── src/
-│ ├── components/ # Shared components (Navbar, Footer, etc.)
-│ ├── pages/ # Screens (Login, Dashboard, Review, etc.)
-│ └── context/ # Auth context and state
-├── backend/ # FastAPI backend
-│ └── main.py # API routes and ML integration
-├── database/ # SQLite database file
-└── README.md # Project documentation
 
 ## ⚙️ Getting Started
 
