@@ -48,11 +48,11 @@ git clone https://github.com/your_username/Code-Review-and-Bug-Detection-Using-A
 cd Code-Review-and-Bug-Detection-Using-AI.git
 
 **Setup the frontend**
-cd ../frontend
+cd frontend
 npm install
 npm start
 
 **Setup the backend**
-cd ../frontend
-npm install
-npm start
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
